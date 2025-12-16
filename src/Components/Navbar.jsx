@@ -57,7 +57,16 @@ export default function Navbar() {
               <Link to="#" className="text-sm font-semibold text-white">
                 Company
               </Link>
-              <Link to="/case-studies" className="text-sm font-semibold text-white">
+              <Link to="/contact" className="text-sm font-semibold text-white">
+                Contact Us
+              </Link>
+              <Link to="pricing" className="text-sm font-semibold text-white">
+                Pricing
+              </Link>
+              <Link
+                to="/case-studies"
+                className="text-sm font-semibold text-white"
+              >
                 Case Studies
               </Link>
             </div>
@@ -137,7 +146,7 @@ export default function Navbar() {
                   className="block rounded-lg px-3 py-2 text-base font-semibold text-white hover:bg-white/5"
                   onClick={() => setMobileMenuOpen(false)}
                 >
-                 Case Studies
+                  Case Studies
                 </Link>
                 <Link
                   to="#"
